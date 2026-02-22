@@ -23,5 +23,3 @@ class CaesarCipherTest(unittest.TestCase):
     def test_give_symbols_shift_4(self):
         self.assertEqual(caesarCipher("1234-5678!", 4), "1234-5678!")
 
-if __name__ == '__main__':
-    unittest.main()

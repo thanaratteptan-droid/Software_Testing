@@ -22,5 +22,3 @@ class TwoCharactersTest(unittest.TestCase):
     def test_give_aabbaa_should_be_0(self):
         self.assertEqual(alternate("aabbaa"), 0)
 
-if __name__ == '__main__':
-    unittest.main()

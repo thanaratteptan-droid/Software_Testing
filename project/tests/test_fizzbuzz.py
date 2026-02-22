@@ -25,5 +25,3 @@ class FizzBuzzTest(unittest.TestCase):
         result = fizzbuzz(number)
         self.assertEqual(result, "2")
 
-if __name__ == '__main__':
-    unittest.main()

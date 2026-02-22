@@ -22,5 +22,3 @@ class FunnyStringTest(unittest.TestCase):
     def test_give_adfg_should_be_not_funny(self):
         self.assertEqual(funnyString("adfg"), "Not Funny")
 
-if __name__ == '__main__':
-    unittest.main()

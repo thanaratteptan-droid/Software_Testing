@@ -54,5 +54,3 @@ class StaircaseTest(unittest.TestCase):
         result = staircase(n)
         self.assertEqual(result, expected_output)
 
-if __name__ == '__main__':
-    unittest.main()

@@ -22,5 +22,3 @@ class GridChallengeTest(unittest.TestCase):
     def test_give_single_column_unsorted_should_be_NO(self):
         self.assertEqual(gridChallenge(['c', 'b', 'a']), "NO")
 
-if __name__ == '__main__':
-    unittest.main()

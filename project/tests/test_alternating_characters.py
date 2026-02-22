@@ -22,6 +22,3 @@ class AlternatingCharactersTest(unittest.TestCase):
     def test_give_empty_string_should_be_0(self):
         self.assertEqual(alternatingCharacters(""), 0)
 
-if __name__ == '__main__':
-    unittest.main()
-    

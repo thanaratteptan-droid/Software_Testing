@@ -33,5 +33,3 @@ class CatAndMouseTest(unittest.TestCase):
         result = cat_and_mouse(x, y, z)
         self.assertEqual(result, "Mouse C")
 
-if __name__ == '__main__':
-    unittest.main()
